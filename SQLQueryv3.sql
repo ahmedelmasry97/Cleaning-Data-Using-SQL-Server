@@ -154,10 +154,10 @@ where _remove >1
 
 
 
-update[Housing_Data]
 
 
-columns_update( [UniqueID]
+
+SELECT [UniqueID]
       ,[ParcelID]
       ,[City]
       ,[Houses_Addresses ]
@@ -175,7 +175,7 @@ columns_update( [UniqueID]
       ,[TaxDistrict]
       ,[Bedrooms]
       ,[FullBath]
-      ,[HalfBath])
+      ,[HalfBath]
   FROM [Housing_Data]
 GO
 
